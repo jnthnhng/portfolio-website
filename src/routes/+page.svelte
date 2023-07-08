@@ -1,7 +1,9 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<script>
+	/** @type {import('./$types').PageData}*/
+	export let data
+</script>
 
-<style lang="postcss">
-	:global(html) {
-		background-color: theme(colors.gray.100);
-	}
-</style>
+<!-- <h1>Recent Projects by Me</h1> -->
+<!-- <div>{@html data.props.projects}</div> -->
+<!-- <div>{@html data.projects.name}</div> -->
+<pre>{JSON.stringify(data.props, null, 2)}</pre>
