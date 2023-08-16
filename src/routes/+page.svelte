@@ -1,9 +1,18 @@
-<script>
-	/** @type {import('./$types').PageData}*/
-	export let data
+<script lang="en">
+	import AboutSection from "$lib/sections/AboutSection.svelte";
+	import ContactSection from "$lib/sections/ContactSection.svelte";
+	import FloatingHamburgerMenu from "$lib/components/FloatingHamburgerMenu.svelte";
+	import Projects from "$lib/sections/ProjectSection.svelte";
+	import WelcomeSection from "$lib/sections/WelcomeSection.svelte";
+
+	export const prerender = true;
 </script>
 
-<!-- <h1>Recent Projects by Me</h1> -->
-<!-- <div>{@html data.props.projects}</div> -->
-<!-- <div>{@html data.projects.name}</div> -->
-<pre>{JSON.stringify(data.props, null, 2)}</pre>
+<!-- <NavBar/> -->
+<FloatingHamburgerMenu/>
+<WelcomeSection/>
+<!-- <slot/> -->
+<AboutSection/>
+<Projects/>
+<!-- <Timeline/> -->
+<ContactSection/>

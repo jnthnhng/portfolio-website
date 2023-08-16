@@ -16,6 +16,13 @@ export default {
 					800: '#155e75',
 					900: '#164e63',
 					950: '#083344'
+				},
+				greenCream: {
+					navbar: '#233938',
+					aboutSectionBg: '#D9D9D9',
+					resumeButtonBg: '#233938',
+					cream: '#CFCCBD',
+					lightCream: '#fffce9'
 				}
 			},
 			fontFamily: {
@@ -56,5 +63,9 @@ export default {
 			}
 		}
 	},
-	plugins: []
+	plugins: [
+		require('daisyui'),
+		require('@tailwindcss/typography'),
+		require('tailwindcss-dotted-background')
+	]
 };
