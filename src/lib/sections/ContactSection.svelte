@@ -1,4 +1,6 @@
-<!-- <section class="min-h-screen bg-gray-300 flex flex-col items-center justify-center"> -->
+<script>
+  import resume from "$lib/assets/jonathan_hang_resume.pdf";
+</script>
 <section
 	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/footerMountain.png')] bg-cover bg-center text-white backdrop-brightness-0"
 >
@@ -9,7 +11,7 @@
 		</p>
 		<div class="space-y-4">
 			<a
-				href="/path-to-your-resume.pdf"
+				href="{resume}"
 				class="inline-block rounded-md bg-blue-500 px-4 py-2 text-center text-white hover:bg-blue-600"
 			>
 				Download Resume
