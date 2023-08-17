@@ -20,25 +20,31 @@
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title">Fitopolis</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<p>
+					A cross-platform application for crowd sourcing fitness challenges. Built with React
+					Native.
+				</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Movies Database</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<h2 class="card-title">Harry Potters Movies Database</h2>
+				<p>REST application built with JavaScript and MySQL.</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title">Content Generator</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<p>
+					A Python microservice application that generates a paragraph based on two keywords. Also
+					serves as a producer and a consumer.
+				</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Small Shell</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<h2 class="card-title">Smallsh</h2>
+				<p>A smll Bash shell that handles basic commands and piping.</p>
 			</div>
 		</div>
 	</div>
@@ -69,7 +75,7 @@
 				<img src={cssIcon} alt="CSS Icon" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={nodeIcon} alt="Nodejs Icon" height="34px" width="34px" op />
+				<img src={nodeIcon} alt="Nodejs Icon" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
 				<img src={githubIcon} alt="GitHub Icon" height="34px" width="34px" />
