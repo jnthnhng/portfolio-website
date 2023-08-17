@@ -19,7 +19,7 @@ export default {
 				},
 				greenCream: {
 					navbar: '#233938',
-					aboutSectionBg: '#D9D9D9',
+					offcream: '#D9D9D9',
 					resumeButtonBg: '#233938',
 					cream: '#CFCCBD',
 					lightCream: '#fffce9'
