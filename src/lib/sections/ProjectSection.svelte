@@ -1,24 +1,12 @@
-<script>
-	import githubIcon from '$lib/assets/icons/github-icon.svg';
-	import pythonIcon from '$lib/assets/icons/python-icon.svg';
-	import javascriptIcon from '$lib/assets/icons/javascript-icon.svg';
-	import reactNativeIcon from '$lib/assets/icons/react-native-icon.svg';
-	import nodeIcon from '$lib/assets/icons/nodejs-icon.svg';
-	import mysqlIcon from '$lib/assets/icons/mysql-icon.svg';
-	import htmlIcon from '$lib/assets/icons/html-icon.svg';
-	import cssIcon from '$lib/assets/icons/css-icon.svg';
-	import cIcon from '$lib/assets/icons/c-icon.svg';
-</script>
-
 <section
 	id="projects"
-	class="bg-greenCream-navbar/30 flex min-h-screen flex-col items-center justify-center bg-[url('$lib/assets/background_images/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-black backdrop-brightness-50"
+	class="bg-greenCream-navbar/30 flex min-h-screen flex-col items-center justify-center bg-[url('/background_images/semi_mellow_landscape.png')] bg-cover bg-center p-0 md:p-20 text-black backdrop-brightness-50" 
 >
 	<h2 class="m-10 text-4xl font-bold text-white">Projects</h2>
 
-	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-		<div class="card bg-base-100 shadow-xl">
-			<div class="card-body">
+	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+		<div class="card bg-base-100 shadow-xl ">
+			<div class="card-body min-w-full">
 				<h2 class="card-title">Fitopolis</h2>
 				<p>
 					A cross-platform application for crowd sourcing fitness challenges. Built with React
@@ -51,34 +39,34 @@
 
 	<div class="m-10 mx-auto max-w-5xl px-12 pb-10">
 		<h2 class="mb-8 text-center text-2xl font-bold">Software technologies I have used:</h2>
-		<div class="grid grid-cols-2 justify-center gap-2 sm:grid-cols-2 md:grid-cols-3">
+		<div class="grid grid-cols-2 justify-center gap-1 sm:gap-4 sm:grid-cols-2 md:grid-cols-3 ">
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
 				<i class="fab fa-html5 text-3xl" />
-				<img src={pythonIcon} alt="Python Icon" height="34px" width="34px" />
+				<img src={'/icons/python-icon.svg'} alt="Python" height="34px" width="34px" />
+			</div>
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md border-slate-200">
+				<img src={'/icons/c-icon.svg'} alt="C" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={cIcon} alt="C Icon" height="34px" width="34px" />
+				<img src={'/icons/javascript-icon.svg'} alt="JavaScript" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={javascriptIcon} alt="JavaScript Icon" height="34px" width="34px" />
+				<img src={'/icons/react-native-icon.svg'} alt="React Native" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={reactNativeIcon} alt="React Native Icon" height="34px" width="34px" />
+				<img src={'/icons/mysql-icon.svg'} alt="MySQL" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={mysqlIcon} alt="MySQL Icon" height="34px" width="34px" />
+				<img src={'/icons/html-icon.svg'} alt="HTML" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={htmlIcon} alt="HTML Icon" height="34px" width="34px" />
+				<img src={'/icons/css-icon.svg'} alt="CSS" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={cssIcon} alt="CSS Icon" height="34px" width="34px" />
+				<img src={'/icons/nodejs-icon.svg'} alt="Node.js" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={nodeIcon} alt="Nodejs Icon" height="34px" width="34px" />
-			</div>
-			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
-				<img src={githubIcon} alt="GitHub Icon" height="34px" width="34px" />
+				<img src={'/icons/github-icon.svg'} alt="GitHub" height="34px" width="34px" />
 			</div>
 		</div>
 	</div>

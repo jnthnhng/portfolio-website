@@ -1,5 +1,5 @@
 <script>
-	import upArrow from '$lib/assets/icons/chevron-up.png';
+	
 	import { afterUpdate, onMount } from 'svelte';
 
 	let isButtonVisible = false;
@@ -47,7 +47,7 @@
 			class="rounded border border-solid border-white bg-greenCream-resumeButtonBg p-2 text-white"
 		>
 			<!-- <i class="fa-solid fa-angle-up fa-beat" /> -->
-			<img class="btn-square btn-xs" src={upArrow} sizes="10px" alt="up arrow" />
+			<img class="btn-square btn-xs" src="/icons/chevron-up.png" sizes="10px" alt="up arrow" />
 		</button>
 	{/if}
 </div>

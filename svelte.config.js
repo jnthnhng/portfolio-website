@@ -18,6 +18,10 @@ const config = {
 				exclude: ['<all>']
 			}
 		}),
+		alias: {
+			$components: './src/lib/components',
+			$static: './static'
+		},
 		csp: {
 			mode: 'auto',
 
