@@ -1,9 +1,10 @@
 <script>
-	import resume from "$lib/assets/jonathan_hang_resume.pdf";
+	import resume from '$lib/assets/jonathan_hang_resume.pdf';
 </script>
 
-<section id=home
-	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/AbstractCloudsLineDots.png')] bg-cover bg-center text-white backdrop-brightness-50"
+<section
+	id="home"
+	class="bg-greenCream-navbar/30 flex min-h-screen items-center justify-center bg-[url('$lib/assets/background_images/AbstractCloudsLineDots.png')] bg-cover bg-center text-white backdrop-brightness-50"
 >
 	<div class="max-w-prose px-4 text-center">
 		<h2 class="mb-2 text-left text-6xl font-extrabold">Hello<br /> I am Jonathan.</h2>

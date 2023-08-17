@@ -1,18 +1,18 @@
 <script>
-	import githubIcon from '$lib/assets/github-icon.svg';
-	import pythonIcon from '$lib/assets/python-icon.svg';
-	import javascriptIcon from '$lib/assets/javascript-icon.svg';
-	import reactNativeIcon from '$lib/assets/react-native-icon.svg';
-	import nodeIcon from '$lib/assets/nodejs-icon.svg';
-	import mysqlIcon from '$lib/assets/mysql-icon.svg';
-	import htmlIcon from '$lib/assets/html-icon.svg';
-	import cssIcon from '$lib/assets/css-icon.svg';
-	import cIcon from '$lib/assets/c-icon.svg';
+	import githubIcon from '$lib/assets/icons/github-icon.svg';
+	import pythonIcon from '$lib/assets/icons/python-icon.svg';
+	import javascriptIcon from '$lib/assets/icons/javascript-icon.svg';
+	import reactNativeIcon from '$lib/assets/icons/react-native-icon.svg';
+	import nodeIcon from '$lib/assets/icons/nodejs-icon.svg';
+	import mysqlIcon from '$lib/assets/icons/mysql-icon.svg';
+	import htmlIcon from '$lib/assets/icons/html-icon.svg';
+	import cssIcon from '$lib/assets/icons/css-icon.svg';
+	import cIcon from '$lib/assets/icons/c-icon.svg';
 </script>
 
 <section
 	id="projects"
-	class="flex min-h-screen flex-col items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-black backdrop-brightness-50"
+	class="bg-greenCream-navbar/30 flex min-h-screen flex-col items-center justify-center bg-[url('$lib/assets/background_images/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-black backdrop-brightness-50"
 >
 	<h2 class="m-10 text-4xl font-bold text-white">Projects</h2>
 
