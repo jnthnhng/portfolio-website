@@ -34,6 +34,9 @@ const config = {
 		},
 		csrf: {
 			checkOrigin: true
+		},
+		prerender: {
+			handleMissingId: 'warn'
 		}
 	}
 };
