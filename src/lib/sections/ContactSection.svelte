@@ -1,11 +1,11 @@
 <script>
   import resume from "$lib/assets/jonathan_hang_resume.pdf";
 </script>
-<section
-	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/footerMountain.png')] bg-cover bg-center text-white backdrop-brightness-0"
+<section id=contact
+	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/dark_landscape_lines.png')] bg-cover bg-center text-white backdrop-brightness-50"
 >
 	<div class="max-w-prose px-4 text-center">
-		<h2 class="mb-4 text-4xl font-bold">Contact Me</h2>
+		<h2 class="mb-4 text-4xl font-bold">Contact </h2>
 		<p class="mb-6 text-lg text-white">
 			Feel free to reach out to me for any inquiries or opportunities.
 		</p>

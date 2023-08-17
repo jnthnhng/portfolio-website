@@ -1,22 +1,22 @@
-<!-- <div class="absolute left-[99px] top-[384px] min-h-screen w-96" />
-<div class="absolute left-0 top-[1651px] min-h-screen w-96 bg-black" />
-<div class="absolute left-[205px] top-[1114px] min-h-screen w-96">
-	<div class="absolute text-center text-5xl font-normal tracking-widest text-black">Projects</div>
-	<div class="absolute left-[158px] top-[119px] h-80 w-36 rounded-sm bg-stone-300 shadow" />
-	<div class="absolute left-0 top-[119px] h-80 w-36 rounded-sm bg-stone-300 shadow" />
-	<div class="absolute left-[316px] top-[119px] h-80 w-36 rounded-sm bg-stone-300 shadow" />
-	<div class="absolute left-[474px] top-[119px] h-80 w-36 rounded-sm bg-stone-300 shadow" />
-</div> -->
 <script>
-	import bgImg from '$lib/assets/bgImg.png';
+	import githubIcon from '$lib/assets/github-icon.svg';
+	import pythonIcon from '$lib/assets/python-icon.svg';
+	import javascriptIcon from '$lib/assets/javascript-icon.svg';
+	import reactNativeIcon from '$lib/assets/react-native-icon.svg';
+	import nodeIcon from '$lib/assets/nodejs-icon.svg';
+	import mysqlIcon from '$lib/assets/mysql-icon.svg';
+	import htmlIcon from '$lib/assets/html-icon.svg';
+	import cssIcon from '$lib/assets/css-icon.svg';
+	import cIcon from '$lib/assets/c-icon.svg';
 </script>
 
-<section class="flex min-h-screen flex-col items-center justify-center bg-[#8fadb7] p-20">
-	<h2 class="m-10 text-4xl font-bold">Projects</h2>
+<section
+	id="projects"
+	class="flex min-h-screen flex-col items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-white backdrop-brightness-50"
+>
+	<h2 class="m-10 text-4xl font-bold text-white">Projects</h2>
 
-	<div
-		class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
-	>
+	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title">Project</h2>
@@ -44,24 +44,25 @@
 	</div>
 
 	<div class="m-10 mx-auto max-w-5xl px-12 pb-10">
-		<h2 class="mb-8 text-center text-2xl font-bold">Technologies I have used:</h2>
+		<h2 class="mb-8 text-center text-2xl font-bold">Software technologies I have used:</h2>
 		<div class="grid grid-cols-2 justify-center gap-2 sm:grid-cols-2 md:grid-cols-3">
 			<!-- Skill item -->
-			<div class="flex items-center justify-center rounded-md bg-white p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl">html</i>
+			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
+				<i class="fab fa-html5 text-3xl"></i>
+				<img src={githubIcon} alt="GitHub Icon" />
 			</div>
 			<!-- Add more skill items here -->
-			<div class="flex items-center justify-center rounded-md bg-white p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl">html</i>
+			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
+				<img src={githubIcon} alt="GitHub Icon" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-white p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl">html</i>
+			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
+				<img src={githubIcon} alt="GitHub Icon" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-white p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl">html</i>
+			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
+				<img src={githubIcon} alt="GitHub Icon" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-white p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl">html</i>
+			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
+				<img src={githubIcon} alt="GitHub Icon" />
 			</div>
 		</div>
 	</div>

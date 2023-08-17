@@ -1,4 +1,6 @@
-<section class="flex min-h-screen items-center justify-center bg-greenCream-cream">
+<section id=about
+	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/lines_padisical.png')] bg-cover bg-center text-white backdrop-brightness-50"
+>
 		<div class="max-w-prose px-4 text-center">
 			<h2 class="mb-4 text-4xl font-bold">About Me</h2>
 			<p class="text-primary text-lg">
