@@ -1,5 +1,5 @@
 <script>
-	import upArrow from '$lib/assets/chevron-up.png';
+	import upArrow from '$lib/assets/icons/chevron-up.png';
 	import { afterUpdate, onMount } from 'svelte';
 
 	let isButtonVisible = false;

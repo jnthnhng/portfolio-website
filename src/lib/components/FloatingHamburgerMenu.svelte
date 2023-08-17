@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import NavBar from './NavBar.svelte';
-	import InlineHamburgerMenu from '$lib/assets/InlineHamburgerMenu.svg';
+	import InlineHamburgerMenu from '$lib/assets/inline-hamburger-menu.svg';
 
 	let isMenuHidden = true;
 
