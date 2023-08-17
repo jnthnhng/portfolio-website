@@ -1,3 +1,7 @@
+<script>
+	import resume from "$lib/assets/jonathan_hang_resume.pdf";
+</script>
+
 <section id=home
 	class="flex min-h-screen items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/AbstractCloudsLineDots.png')] bg-cover bg-center text-white backdrop-brightness-50"
 >
@@ -6,7 +10,7 @@
 		<p class="mb-6 text-left text-lg text-gray-100">An aspiring software developer.</p>
 		<div class="md:justify-left flex md:flex-row md:items-center">
 			<a
-				href="/path-to-your-resume.pdf"
+				href={resume}
 				class="inline-block rounded-md border border-[#4aacd3] bg-white px-4 py-2 text-center text-[#3675b1] shadow-md hover:border-white hover:bg-[#51c4ab] hover:text-white md:ml-0 md:mt-0 md:self-start md:justify-self-start"
 			>
 				Download Resume
