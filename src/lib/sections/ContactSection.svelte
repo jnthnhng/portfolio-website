@@ -12,14 +12,14 @@
 		<div class="space-y-4">
 			<a
 				href="{resume}"
-				class="inline-block rounded-md bg-blue-500 px-4 py-2 text-center text-white hover:bg-blue-600"
+				class="inline-block rounded-md bg-greenCream-lightCream px-4 py-2 text-center text-greenCream-buttonText hover:bg-greenCream-darkGreen hover:text-white"
 			>
 				Download Resume
 			</a>
       <br>
 			<a
 				href="mailto:me@joanthanhang.com"
-				class="inline-block rounded-md bg-green-500 px-4 py-2 text-center text-white hover:bg-green-600"
+				class="inline-block rounded-md bg-greenCream-lightCream px-4 py-2 text-center text-greenCream-buttonText hover:bg-greenCream-darkGreen hover:text-white"
 			>
 				Email Me
 			</a>
