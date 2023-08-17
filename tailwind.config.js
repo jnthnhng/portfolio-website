@@ -18,9 +18,9 @@ export default {
 					950: '#083344'
 				},
 				greenCream: {
-					navbar: '#233938',
+					darkGreen: '#233938',
 					offcream: '#D9D9D9',
-					resumeButtonBg: '#233938',
+					buttonText: '#233938',
 					cream: '#CFCCBD',
 					lightCream: '#fffce9'
 				}
