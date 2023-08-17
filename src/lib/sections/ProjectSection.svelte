@@ -12,32 +12,32 @@
 
 <section
 	id="projects"
-	class="flex min-h-screen flex-col items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-white backdrop-brightness-50"
+	class="flex min-h-screen flex-col items-center justify-center bg-greenCream-navbar/30 bg-[url('$lib/assets/semi_mellow_landscape.png')] bg-cover bg-center p-20 text-black backdrop-brightness-50"
 >
 	<h2 class="m-10 text-4xl font-bold text-white">Projects</h2>
 
 	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Project</h2>
+				<h2 class="card-title">Fitopolis</h2>
 				<p>If a dog chews shoes whose shoes does he choose?</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Project</h2>
+				<h2 class="card-title">Movies Database</h2>
 				<p>If a dog chews shoes whose shoes does he choose?</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Project</h2>
+				<h2 class="card-title">Content Generator</h2>
 				<p>If a dog chews shoes whose shoes does he choose?</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Project</h2>
+				<h2 class="card-title">Small Shell</h2>
 				<p>If a dog chews shoes whose shoes does he choose?</p>
 			</div>
 		</div>
@@ -46,23 +46,33 @@
 	<div class="m-10 mx-auto max-w-5xl px-12 pb-10">
 		<h2 class="mb-8 text-center text-2xl font-bold">Software technologies I have used:</h2>
 		<div class="grid grid-cols-2 justify-center gap-2 sm:grid-cols-2 md:grid-cols-3">
-			<!-- Skill item -->
-			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
-				<i class="fab fa-html5 text-3xl"></i>
-				<img src={githubIcon} alt="GitHub Icon" />
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<i class="fab fa-html5 text-3xl" />
+				<img src={pythonIcon} alt="Python Icon" height="34px" width="34px" />
 			</div>
-			<!-- Add more skill items here -->
-			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
-				<img src={githubIcon} alt="GitHub Icon" />
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={cIcon} alt="C Icon" height="34px" width="34px" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
-				<img src={githubIcon} alt="GitHub Icon" />
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={javascriptIcon} alt="JavaScript Icon" height="34px" width="34px" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
-				<img src={githubIcon} alt="GitHub Icon" />
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={reactNativeIcon} alt="React Native Icon" height="34px" width="34px" />
 			</div>
-			<div class="flex items-center justify-center rounded-md bg-gray p-4 shadow-md">
-				<img src={githubIcon} alt="GitHub Icon" />
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={mysqlIcon} alt="MySQL Icon" height="34px" width="34px" />
+			</div>
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={htmlIcon} alt="HTML Icon" height="34px" width="34px" />
+			</div>
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={cssIcon} alt="CSS Icon" height="34px" width="34px" />
+			</div>
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={nodeIcon} alt="Nodejs Icon" height="34px" width="34px" op />
+			</div>
+			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
+				<img src={githubIcon} alt="GitHub Icon" height="34px" width="34px" />
 			</div>
 		</div>
 	</div>
