@@ -3,7 +3,7 @@
 	class="bg-greenCream-navbar/30 flex min-h-screen items-center justify-center bg-[url('/background_images/dark_landscape_lines.png')] bg-cover bg-center text-white backdrop-brightness-50"
 >
 	<div class="max-w-prose px-4 text-center">
-		<h2 class="mb-4 text-4xl font-bold">Connect</h2>
+		<h2 class="mb-4 text-4xl font-bold">Let's Connect</h2>
 		<p class="mb-6 text-lg text-white">
 			Feel free to reach out to me for any inquiries or opportunities.
 		</p>

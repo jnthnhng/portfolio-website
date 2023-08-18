@@ -1,12 +1,12 @@
 <script>
 	import BackToTop from '$lib/components/BackToTop.svelte';
-	import FloatingHamburgerMenu from '$lib/components/FloatingHamburgerMenu.svelte';
 	import NavBar from '$lib/components/NavBar.svelte';
 
 	import '../app.css';
 </script>
-
+<svelte:head>
+	<title>Jonathan Hang | Aspiring Software Developer</title>
+</svelte:head>
 <NavBar />
-<!-- <FloatingHamburgerMenu /> -->
 <slot />
 <BackToTop />

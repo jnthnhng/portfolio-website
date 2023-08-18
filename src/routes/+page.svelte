@@ -4,7 +4,8 @@
 	import Projects from '$lib/sections/ProjectSection.svelte';
 	import WelcomeSection from '$lib/sections/HomeSection.svelte';
 
-	export const prerender = true;
+	
+	
 </script>
 
 <WelcomeSection />
