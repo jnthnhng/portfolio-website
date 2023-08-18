@@ -32,7 +32,7 @@
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title">Smallsh</h2>
-				<p>A smll Bash shell that handles basic commands and piping.</p>
+				<p>A smll Bash shell that handles basic commands and piping. Built in C.</p>
 			</div>
 		</div>
 	</div>
