@@ -1,7 +1,7 @@
 # Porfolio Website
 
 Personal developer website built with SvelteKit.
-Hosted on Vercel and DNS hosting through Cloudflare.
+Deployed through Vercel and DNS hosting through Cloudflare.
 
 ## Link
 [https://www.jonathanhang.com](https://www.jonathanhang.com)
