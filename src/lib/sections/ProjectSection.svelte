@@ -38,7 +38,7 @@
 	</div>
 
 	<div class="m-10 mx-auto max-w-5xl px-12 pb-10">
-		<h2 class="mb-8 text-center text-2xl font-bold">Software technologies I have used:</h2>
+		<h2 class="mb-8 text-center text-2xl font-bold text-white">Software technologies I have used:</h2>
 		<div class="grid grid-cols-2 justify-center gap-1 sm:gap-4 sm:grid-cols-2 md:grid-cols-3 ">
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
 				<i class="fab fa-html5 text-3xl" />
