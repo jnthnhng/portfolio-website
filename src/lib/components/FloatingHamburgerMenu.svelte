@@ -21,7 +21,12 @@
 		class="rounded border border-solid border-white bg-greenCream-resumeButtonBg p-2"
 	>
 		<i class="fas fa-bars" />
-		<img class="btn-square btn-xs" src={'/icons/inline-hamburger-menu.svg'} sizes="10px" alt="up arrow" />
+		<img
+			class="btn-square btn-xs"
+			src={'/icons/inline-hamburger-menu.svg'}
+			sizes="10px"
+			alt="up arrow"
+		/>
 	</button>
 </div>
 

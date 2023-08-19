@@ -1,11 +1,11 @@
 <section
 	id="projects"
-	class="bg-greenCream-navbar/30 flex min-h-screen flex-col items-center justify-center bg-[url('/background_images/semi_mellow_landscape.png')] bg-cover bg-center p-0 md:p-20 text-black backdrop-brightness-50" 
+	class="bg-greenCream-navbar/30 flex min-h-screen flex-col items-center justify-center bg-[url('/background_images/semi_mellow_landscape.png')] bg-cover bg-center p-0 md:p-20 text-black backdrop-brightness-50"
 >
 	<h2 class="m-10 text-4xl font-bold text-white">Projects</h2>
 
-	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
-		<div class="card bg-base-100 shadow-xl ">
+	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body min-w-full">
 				<h2 class="card-title">Fitopolis</h2>
 				<p>
@@ -38,13 +38,17 @@
 	</div>
 
 	<div class="m-10 mx-auto max-w-5xl px-12 pb-10">
-		<h2 class="mb-8 text-center text-2xl font-bold text-white">Software technologies I have used:</h2>
-		<div class="grid grid-cols-2 justify-center gap-1 sm:gap-4 sm:grid-cols-2 md:grid-cols-3 ">
+		<h2 class="mb-8 text-center text-2xl font-bold text-white">
+			Software technologies I have used:
+		</h2>
+		<div class="grid grid-cols-2 justify-center gap-1 sm:gap-4 sm:grid-cols-2 md:grid-cols-3">
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">
 				<i class="fab fa-html5 text-3xl" />
 				<img src={'/icons/python-icon.svg'} alt="Python" height="34px" width="34px" />
 			</div>
-			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md border-slate-200">
+			<div
+				class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md border-slate-200"
+			>
 				<img src={'/icons/c-icon.svg'} alt="C" height="34px" width="34px" />
 			</div>
 			<div class="bg-gray flex items-center justify-center rounded-md border-2 p-4 shadow-md">

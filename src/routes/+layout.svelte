@@ -4,6 +4,7 @@
 
 	import '../app.css';
 </script>
+
 <svelte:head>
 	<title>Jonathan Hang | Aspiring Software Developer</title>
 </svelte:head>

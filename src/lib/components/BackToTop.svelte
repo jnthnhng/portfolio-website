@@ -1,10 +1,9 @@
 <script>
-	
 	import { afterUpdate, onMount } from 'svelte';
 
 	let isButtonVisible = false;
 	let isHomeSection = true;
-    let hasScrolled = false;
+	let hasScrolled = false;
 
 	const backToTopButton = () => {
 		if (!isHomeSection) {
@@ -14,8 +13,8 @@
 			if (homeElement) {
 				homeElement.scrollIntoView({ behavior: 'smooth' });
 			} else {
-                hasScrolled = false;
-            }
+				hasScrolled = false;
+			}
 		}
 	};
 
@@ -28,9 +27,9 @@
 	});
 
 	function handleScroll() {
-        if (!hasScrolled) {
-            hasScrolled = true;
-        }
+		if (!hasScrolled) {
+			hasScrolled = true;
+		}
 		isButtonVisible = shouldShowButton();
 	}
 
