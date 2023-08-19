@@ -29,9 +29,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Install Packages
-        run: pnpm install
-
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         with:
