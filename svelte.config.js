@@ -27,7 +27,7 @@ const config = {
 			mode: 'auto',
 
 			directives: {
-				'script-src': ['self'],
+				'script-src': ['self', 'unsafe-inline'],
 				'object-src': ['none']
 			}
 			// reportOnly: {
