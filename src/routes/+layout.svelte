@@ -5,8 +5,12 @@
 	import '../app.css';
 </script>
 
-<svelte:head>
-	<title>Jonathan Hang | Aspiring Software Developer</title>
+<svelte:head
+	><title>Jonathan Hang | Aspiring Software Developer</title>
+	<meta
+		name="description"
+		content="Jonathan Hang, Software Developer, Dev Website. Developer based in Texas. Open to opportunities."
+	/>
 </svelte:head>
 <NavBar />
 <slot />
