@@ -27,7 +27,8 @@ const config = {
 			mode: 'auto',
 
 			directives: {
-				'script-src': ['self']
+				'script-src': ['self'],
+				'object-src': ['none']
 			}
 			// reportOnly: {
 			// 	'script-src': ['self']
