@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "playfair-italic";
-	src: url("./lib/assets/fonts/PlayfairItalicVF.ttf");
+	font-family: 'playfair-italic';
+	src: url('./lib/assets/fonts/PlayfairItalicVF.ttf');
 }
 
 @font-face {
-	font-family: "playfair-roman";
-	src: url("./lib/assets/fonts/PlayfairRomanVF.ttf");
+	font-family: 'playfair-roman';
+	src: url('./lib/assets/fonts/PlayfairRomanVF.ttf');
 }
 
 @layer base {

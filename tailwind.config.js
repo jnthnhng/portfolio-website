@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import defaultTheme from 'tailwindcss/defaultTheme';
 
-
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
@@ -48,7 +47,8 @@ export default {
 					'Noto Color Emoji'
 				],
 				sans: [
-					'playfair-roman', ...defaultTheme.fontFamily.sans
+					'playfair-roman',
+					...defaultTheme.fontFamily.sans
 					// 'Merriweather',
 					// 'ui-sans-serif',
 					// 'system-ui',
@@ -65,8 +65,8 @@ export default {
 					// 'Segoe UI Symbol',
 					// 'Noto Color Emoji'
 				],
-				"playfair-italic": ['playfair-italic', 'cursive'],
-				"playfair-roman": ['playfair-roman', 'serif']
+				'playfair-italic': ['playfair-italic', 'cursive'],
+				'playfair-roman': ['playfair-roman', 'serif']
 			}
 		}
 	},

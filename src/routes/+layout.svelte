@@ -12,7 +12,6 @@
 		content="Jonathan Hang, Software Developer, Dev Website. Developer based in Texas. Open to opportunities."
 	/>
 	<style>
-		
 	</style>
 </svelte:head>
 <NavBar />
