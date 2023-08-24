@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "playfair-italic";
+	src: url("./lib/assets/fonts/PlayfairItalicVF.ttf");
+}
+
+@font-face {
+	font-family: "playfair-roman";
+	src: url("./lib/assets/fonts/PlayfairRomanVF.ttf");
+}
+
 @layer base {
 	html {
-		font-family: Proxima Nova, system-ui, sans-serif;
+		font-family: playfair-roman, Proxima Nova, system-ui, sans-serif;
 	}
 }

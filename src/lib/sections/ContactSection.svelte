@@ -17,30 +17,35 @@
 			<br />
 
 			<div
-				class="md:p-30 container mx-auto flex min-h-full flex-shrink flex-grow content-center justify-evenly gap-2 p-0"
+				class="md:p-30 container mx-auto flex min-h-full content-center justify-evenly gap-2 p-0"
 			>
 				<a
-					class="hover:text-underline avatar inline-block h-10 p-2 text-center text-gray-500 no-underline hover:text-white md:h-auto md:w-auto md:p-7"
+					class="hover:text-underline avatar inline-block p-2 text-center text-gray-500 no-underline hover:text-white md:p-7 h-16 w-16 sm:h-24 sm:w-24 md:h-36 md:w-36"
 					data-tippy-content="@jnthnhng"
 					href="https://www.github.com/jnthnhng"
 				>
-					<img src={'/icons/github-icon-100.svg'} alt="GitHub" class="h-20 w-20 md:h-16 md:w-16" />
+					<img
+						src={'/icons/github-icon-100.svg'}
+						alt="GitHub"
+					/>
 				</a>
 				<a
-					class="hover:text-underline avatar inline-block h-10 p-2 text-center text-gray-500 no-underline hover:text-white md:h-auto md:p-7"
+					class="hover:text-underline avatar inline-block p-2 text-center text-gray-500 no-underline hover:text-white  md:p-7 h-16 w-16 sm:h-24 sm:w-24 md:h-36 md:w-36"
 					data-tippy-content="in/jonathanhang/"
 					href="https://www.linkedin.com/in/jonathanhang/"
 				>
-					<img src={'/icons/linkedin-icon.svg'} alt="LinkedIn" class="h-20 w-20 md:h-16 md:w-16" />
+					<img
+						src={'/icons/linkedin-icon.svg'}
+						alt="LinkedIn"
+					/>
 				</a>
 				<a
 					href="mailto:me@joanthanhang.com"
-					class="hover:text-underline avatar inline-block h-10 p-2 text-center text-gray-500 no-underline hover:text-white md:h-auto md:w-auto md:p-4"
+					class="hover:text-underline avatar inline-block p-2 text-center text-gray-500 no-underline hover:text-white  md:p-7 h-16 w-16 sm:h-24 sm:w-24 md:h-36 md:w-36"
 				>
 					<img
 						src={'/icons/icons8-email-100.svg'}
 						alt="Mailbox"
-						class="h-20 w-20 md:h-16 md:w-16"
 					/>
 				</a>
 			</div>

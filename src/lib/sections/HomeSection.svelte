@@ -3,7 +3,7 @@
 
 <section
 	id="home"
-	class="bg-greenCream-navbar/30 flex min-h-screen items-center justify-center bg-[url('/background_images/AbstractCloudsLineDots.png')] bg-cover bg-center text-white backdrop-brightness-50"
+	class="bg-greenCream-navbar/30 flex min-h-screen items-center justify-center bg-[url('/background_images/AbstractCloudsLineDots.png')] bg-cover bg-center text-white backdrop-brightness-50 font-playfair-roman"
 >
 	<div class="max-w-prose px-4 text-center">
 		<h2 class="mb-2 text-left text-6xl font-extrabold">Hello<br /> I am Jonathan.</h2>

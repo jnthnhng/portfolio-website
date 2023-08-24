@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme';
+
+
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
@@ -19,7 +22,7 @@ export default {
 				},
 				greenCream: {
 					darkGreen: '#233938',
-					offcream: '#D9D9D9',
+					offCream: '#D9D9D9',
 					buttonText: '#233938',
 					cream: '#CFCCBD',
 					lightCream: '#fffce9'
@@ -27,6 +30,7 @@ export default {
 			},
 			fontFamily: {
 				body: [
+					'playfair-roman',
 					'Merriweather',
 					'ui-sans-serif',
 					'system-ui',
@@ -44,22 +48,25 @@ export default {
 					'Noto Color Emoji'
 				],
 				sans: [
-					'Merriweather',
-					'ui-sans-serif',
-					'system-ui',
-					'-apple-system',
-					'system-ui',
-					'Segoe UI',
-					'Roboto',
-					'Helvetica Neue',
-					'Arial',
-					'Noto Sans',
-					'sans-serif',
-					'Apple Color Emoji',
-					'Segoe UI Emoji',
-					'Segoe UI Symbol',
-					'Noto Color Emoji'
-				]
+					'playfair-roman', ...defaultTheme.fontFamily.sans
+					// 'Merriweather',
+					// 'ui-sans-serif',
+					// 'system-ui',
+					// '-apple-system',
+					// 'system-ui',
+					// 'Segoe UI',
+					// 'Roboto',
+					// 'Helvetica Neue',
+					// 'Arial',
+					// 'Noto Sans',
+					// 'sans-serif',
+					// 'Apple Color Emoji',
+					// 'Segoe UI Emoji',
+					// 'Segoe UI Symbol',
+					// 'Noto Color Emoji'
+				],
+				"playfair-italic": ['playfair-italic', 'cursive'],
+				"playfair-roman": ['playfair-roman', 'serif']
 			}
 		}
 	},
