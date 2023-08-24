@@ -16,8 +16,8 @@
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Harry Potters Movies Database</h2>
-				<p>REST application built with JavaScript and MySQL.</p>
+				<h2 class="card-title">Harry Potter Movies Database</h2>
+				<p>RESTful application built with JavaScript and MySQL.</p>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
@@ -32,7 +32,7 @@
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
 				<h2 class="card-title">Smallsh</h2>
-				<p>A smll Bash shell that handles basic commands and piping. Built in C.</p>
+				<p>A small Unix-like shell that handles basic commands and piping. Built in C.</p>
 			</div>
 		</div>
 	</div>
