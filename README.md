@@ -23,6 +23,7 @@ Deployed through Vercel and DNS hosting through Cloudflare.
 - [Vercel](https://vercel.com/dashboard)
 - [Cloudflare](https://www.cloudflare.com/)
 - [Midjourney](https://www.midjourney.com)
+- [Playflair-Font](https://github.com/clauseggers/Playfair)
 
 ## License
 
