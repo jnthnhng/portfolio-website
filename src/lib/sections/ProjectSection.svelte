@@ -7,32 +7,66 @@
 	<div class="m-5 grid grid-flow-row gap-4 px-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body min-w-full">
-				<h2 class="card-title">Fitopolis</h2>
-				<p>
-					A cross-platform application for crowd sourcing fitness challenges. Built with React
-					Native.
-				</p>
+				<h2 class="text-base md:text-xl font-medium">
+					Fitopolis <br />
+				</h2>
+				<span class="font-light italic">
+					JavaScript, React Native, GitHub Actions, Stream’s Activity Feed API, Firebase, Cloud
+					Functions <br />
+				</span>
+				<span class="font-medium">
+					Collaborated in a team to develop a cross-platform fitness challenge app. Initiated the
+					project, managed GitHub setup, and added in-app search with React Chip components.
+					Integrated Stream's Activity Feed API for global user interactions and deployed an
+					efficient token retrieval function on Google Cloud Functions.
+				</span>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Harry Potter Movies Database</h2>
-				<p>RESTful application built with JavaScript and MySQL.</p>
+				<h2 class="text-base md:text-xl font-medium">
+					Harry Potter Movies Database <br />
+				</h2>
+				<span class="italic font-light">
+					JavaScript, Node.js, Express.js, AWS MariaDB <br />
+				</span>
+				<span class="font-medium">
+					Collaborated efficiently within the team, contributing to project proposal, ER diagram,
+					schema design, and implementation. Developed a RESTful API for CRUD operations using
+					Node.js, Express.js, and MySQL. Led backend development and configured Amazon RDS for
+					efficient data storage with MariaDB.
+				</span>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Content Generator</h2>
-				<p>
-					A Python microservice application that generates a paragraph based on two keywords. Also
-					serves as a producer and a consumer.
-				</p>
+				<h2 class="text-base md:text-xl font-medium">
+					Content Generator <br />
+				</h2>
+				<span class="italic font-light">
+					Python, Tkinter, RabbitMQ’s Pika, Wikipedia API <br />
+				</span>
+				<span class="font-medium">
+					Designed and created a user-friendly GUI for inputting primary and secondary keys,
+					querying Wikipedia through an API, and displaying a relevant paragraph. Enhanced
+					application versatility by implementing a CSV input processor to generate an output CSV
+					file. Additionally, developed a microservice using RabbitMQ's Pika module, serving as both
+					producer and consumer to facilitate efficient component communication.
+				</span>
 			</div>
 		</div>
 		<div class="card bg-base-100 shadow-xl">
 			<div class="card-body">
-				<h2 class="card-title">Smallsh</h2>
-				<p>A small Unix-like shell that handles basic commands and piping. Built in C.</p>
+				<h2 class="text-base md:text-xl font-medium">
+					Small Shell <br />
+				</h2>
+				<span class="font-light italic"> C, reimplemented in Go <br /> </span>
+				<span class="font-medium">
+					Implemented a set of built-in commands, including exit, change directory, and status,
+					enhancing the shell’s functionality. • Added the support for additional commands by
+					invoking the ’exec’ family of functions, configuring input and output direction, and
+					enabling foreground and background command execution.
+				</span>
 			</div>
 		</div>
 	</div>
